@@ -1,33 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="bg-dark">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <img src="img/house.png" alt="img-thumbnail">
-            <span class="fs-4 text-white">Roman Holidays</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active bg-dark text-white" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link bg-dark text-secondary">About us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link bg-dark text-secondary">Services</a></li>
-            <li class="nav-item"><a href="#" class="nav-link bg-dark text-secondary">Contact us</a></li>
-          </ul>
-        </header>
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+          <img src="img/house.png" alt="img-thumbnail" />
+          <span class="fs-4 text-white" id="head">Roman Holidays</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a
+              href="#"
+              class="nav-link active bg-dark text-white"
+              aria-current="page"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link bg-dark text-secondary">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link bg-dark text-secondary">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link bg-dark text-secondary">Contact us</a>
+          </li>
+        </ul>
+      </header>
+    </div>
+
+    <div class="container bg-secondary bg-opacity-25 rounded-1" id="content">
+      <h1 class="p-4 pt-5 fs-1">Excursions in Rome</h1>
+      <p class="px-4 fs-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        excepturi quo officiis velit architecto ipsa praesentium exercitationem
+        iusto sed tempora cupiditate, saepe voluptates nam sapiente consectetur
+        voluptatibus rem alias? Repellat!
+      </p>
+      <button type="button" class="btn btn-primary p-2 px-4 mb-5 mx-4">
+        Book Excursion
+      </button>
+    </div>
+
+    <div class="container text-center mt-5">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/colosseum.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/ruin.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/building.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem">
+            <img src="img/bridge.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+            </ul>
+          </div>
+        </div>
       </div>
-      
-</body>
+    </div>
+  </body>
+  <footer class="fixed-bottom bg-dark">
+    <p class="text-white text-center p-4">© 2022 Roman Holidays, 2021</p>
+  </footer>
 </html>

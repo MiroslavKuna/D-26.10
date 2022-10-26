@@ -1,3 +1,6 @@
-.fs-4{
+#head{
     font-family: 'Fasthand', cursive;
+}
+#content{
+    font-family: 'Barlow', sans-serif;
 }
